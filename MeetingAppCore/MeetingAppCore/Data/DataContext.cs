@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace MeetingAppCore.Data
 {
+    // comment again
     public class DataContext : IdentityDbContext<AppUser, AppRole, Guid,
         IdentityUserClaim<Guid>, AppUserRole, IdentityUserLogin<Guid>,
         IdentityRoleClaim<Guid>, IdentityUserToken<Guid>>
